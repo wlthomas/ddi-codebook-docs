@@ -7,14 +7,14 @@
    :caption: Table of contents
    :maxdepth: 3
    
-   About/index.rst
-   Overview/index.rst
-   Document Description/index.rst
-   Study Description/index.rst
-   File Description/index.rst
-   Data Description/index.rst
-   Other Materials Description/index.rst
-   Changes from Previous Version/index.rst
+   about/index.rst
+   overview/index.rst
+   docDscr/index.rst
+   stdyDescr/index.rst
+   fileDescr/index.rst
+   dataDscr/index.rst
+   otherMat/index.rst
+
 
 
 
