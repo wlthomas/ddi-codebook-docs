@@ -7,7 +7,6 @@ Overview
 
    tree.rst
    
-   
 This documentation is provided to assist in the usage of the XML specification (http://www.ddialliance.org/Specification/DDI-Codebook/2.6/XMLSchema/
 
 In addition there are three other main sources of documentation
@@ -18,20 +17,37 @@ In addition there are three other main sources of documentation
 
 The specification contains 258 global and 7 local elements. 
 
-There are 5 top level elements (Links to Field Level documentation)
+All elements support a basic set of `GLOBAL <https://docs.ddialliance.org/DDI-Codebook/2.6/xmlschema/codebook_xsd/attributeGroups/GLOBALS.html>`_ attributes in addition to the content. These are:
 
-Document Description `docDscr <https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/docDscr.html>`_
+- ID 
+- xml:lang 
+- source 
+- elementVersion
+- elementVersionDate
+- DDILifecycleUrn
+- DDICodebookUrn
 
+There are 5 top level elements
 
-Study Description `stdyDscr <https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/stdyDscr.html>`_
+- Document Description
+- Study Description 
+- File Description 
+- Data Description 
+- Other Study Related Materials 
 
+Version 2.6 is a major update to the schema and has introduced a numner of new elements that replace existing ones, which it is recommended that these are migrated to in preperation for the next release.
 
-File Description `fileDscr <https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/fileDscr.html>`_
+- Controlled Vocabularies
+- External Identifiers
+- Bounding Box
+- Geographic hierachies
+- Text types
 
+A numner of attributes are deprecated
 
-Data Description `dataDscr <https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/dataDscr.html>`_
+- text type
+- External Link
+- DDI URN
 
-
-Other Materials `otherMat <https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/otherMat.html>`_
 
 
