@@ -1,6 +1,4 @@
-
-
-.. image:: ../_static/images/ddi-codebook-logo.*
+.. image:: ../_static/images/ddi-codebook-logo.png
 
 
 .. toctree::
