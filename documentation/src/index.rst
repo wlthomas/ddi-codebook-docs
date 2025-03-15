@@ -1,9 +1,9 @@
-==============================================
-DDI-Codebook Highl Level Documentation (Draft)
-==============================================
 
 .. image:: ../_static/images/ddi-codebook-logo.png
 
+================================
+High Level Documentation (Draft)
+================================
 
 .. toctree::
    :caption: Table of contents
