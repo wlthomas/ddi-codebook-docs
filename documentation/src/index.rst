@@ -16,6 +16,8 @@ High Level Documentation (Draft)
    fileDescr/index.rst
    dataDscr/index.rst
    otherMat/index.rst
+   best-practices/index.rst
+
 
 
 
