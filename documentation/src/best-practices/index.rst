@@ -9,6 +9,7 @@ Best Practices
    types.rst
    cvs.rst
    identification.rst
+   multi-lingual.rst
    
    
 
