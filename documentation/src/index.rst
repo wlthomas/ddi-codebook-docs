@@ -1,3 +1,7 @@
+==============================================
+DDI-Codebook Highl Level Documentation (Draft)
+==============================================
+
 .. image:: ../_static/images/ddi-codebook-logo.png
 
 
