@@ -6,9 +6,9 @@ Best Practices
    :caption: Table of contents
    :maxdepth: 3
    
-   types/index.rst
-   cvs/index.rst
-   identification/index.rst
+   types.rst
+   cvs.rst
+   identification.rst
    
    
 
