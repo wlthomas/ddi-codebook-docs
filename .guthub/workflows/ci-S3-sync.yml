@@ -1,0 +1,46 @@
+name: Sync to S3
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: github.repository == 'ddialliance/ddi-codebook-docs'
+    runs-on: windows-latest
+
+    steps:
+    - name: Get short SHA
+      run: echo "SHORT_SHA=$("${{ github.sha }}".SubString(0, 8))" >> $env:GITHUB_ENV
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+    
+    - name: Install python dependencies
+      run: pip install -r build/requirements.txt
+
+    - name: Run build-windows.bat
+      run: .\build\build-windows.bat
+      shell: cmd
+
+    - name: Make all outputs artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: ddi-codebook-docs-${{env.SHORT_SHA}}
+          path: .\documentation\_build\ddi\dirhtml
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1 
+
+    - name: Sync S3 dev bucket
+      run: |
+        aws s3 sync .\documentation\_build\ddi\dirhtml s3://docs.ddialliance.org/DDi-Codebook/guides
