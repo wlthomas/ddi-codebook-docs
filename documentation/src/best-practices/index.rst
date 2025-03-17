@@ -10,6 +10,7 @@ Best Practices
    cvs.rst
    identification.rst
    multi-lingual.rst
+   geography.rst
    
    
 
