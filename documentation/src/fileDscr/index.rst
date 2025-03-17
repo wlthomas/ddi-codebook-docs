@@ -9,7 +9,7 @@ File Description `(fileDscr) <https://docs.ddialliance.org/DDI-Codebook/2.5/xmls
 
 For each add a purpose
 
-fileTxt (0-n)
-fileDerivation (0-1)
-locMap (0-1)
-notes (0-n) [type, subject, level, resp, sdatrefs, parent, sameNote]
+- fileTxt (0-n)
+- fileDerivation (0-1)
+- locMap (0-1)
+- notes (0-n) [type, subject, level, resp, sdatrefs, parent, sameNote]
