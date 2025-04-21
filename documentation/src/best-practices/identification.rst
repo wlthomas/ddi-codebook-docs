@@ -14,6 +14,12 @@ ID is available for all base elements
 	Use of this ID is strongly recommended at the codebook level (many systems, such as NESSTAR required the use of ID for codebook)
 	ID must be provided if you wish to reference the element (such as locMap, qstn, var, nCube, etc.) from another internal element.
 
+DDI URN	
+.......
+
+A ddiLifecycleUrn is provided to hold the DDI URN for content transferred from a DDI-Lifecycle instance. A ddiCodebookUrn allows for entering a similarly constructed DDI URN for the DDI-Codebook element. A common approach is to use the concatenation of the codebook ID and the element ID in addition to the agency ID of the authoring agency and existing version ID to create a unique URN. It is assumed that the authoring agency will create unique codebook IDs within the agency.
+
+
 External identifiers
 
 
@@ -23,9 +29,10 @@ Deprecated
 ExtLink
 .......
 
-This is a deprecated structure used to provide an external link to an identifiable object using that objects URI. The preferred approach is to create an othMat with the external URI and reference that othMat description using the IDRef(s) attributes in the related DDI element.
-	
-DDI URN	
-.......
+This is a deprecated structure used to provide an external link to an identifiable object from within a text block using that objects URI. The preferred approach is to create an othMat with the external URI and reference that othMat description using the IDRef(s) attributes in the related DDI element.
 
-A ddiLifecycleUrn is provided to hold the DDI URN for content transferred from a DDI-Lifecycle instance. A ddiCodebookUrn allows for entering a similarly constructed DDI URN for the DDI-Codebook element. A common approach is to use the concatenation of the codebook ID and the element ID in addition to the agency ID of the authoring agency and existing version ID to create a unique URN. It is assumed that the authoring agency will create unique codebook IDs within the agency.
+Link
+.......
+This is a deprecated structure used to provide an internal link to an identifiable object from within a text block using that objects URI. IDRef(s) is the preferred method of internal links. 
+	
+
