@@ -19,8 +19,8 @@ New documentation should use the "concept" option rather than the original attri
 New documentation wishing to use a controlled vocabulary where the "concept" option is not available should use the "controlledVocabulary" structure and associate it with the element or attribute containing the value of the controlled vocabulary. Currently the link to the element/attribute using the controlled vocabulary is expressed through an XPath.
 
 specify:
-controlled vocabulary term
-controlled vocabulary label (multilingual)
-vocabulary name
-vocabulary URI (facilitates validation)
-vocabulary instance URI (facilitates instance level linkages and validation)
+- controlled vocabulary term
+- controlled vocabulary label (multilingual)
+- vocabulary name
+- vocabulary URI (facilitates validation)
+- vocabulary instance URI (facilitates instance level linkages and validation)
