@@ -10,9 +10,9 @@ Primary elements are citation, guide, document status, document source and contr
 
 For each of the following add a purpose 
 
-citation (0-1) [MARCURI]
-guide (0-n)
-docStatus (0-n)
-docSrc (0-n)  --SEE Citation Contents section 1.1 inclusive--
-controlledVocabUsed (0-n)
-notes (0-n) [type, subject, level, resp, sdatrefs, parent, sameNote]
+- citation (0-1) [MARCURI]
+- guide (0-n)
+- docStatus (0-n)
+- docSrc (0-n)  --SEE Citation Contents section 1.1 inclusive--
+- controlledVocabUsed (0-n)
+- notes (0-n) [type, subject, level, resp, sdatrefs, parent, sameNote]
