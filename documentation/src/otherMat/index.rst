@@ -9,7 +9,7 @@ Other Study Related Materials `(otherMat) <https://docs.ddialliance.org/DDI-Code
 
 For each add a purpose
 
-- ty   fSetAvailability (0-n)
+- typeOfSetAvailability (0-n)
 - labl (0-n) [level, vendor, country, sdatrefs]
 - txt (0-n) [level, sdatrefs]
 - notes (0-n) [type, subject, level, resp, sdatrefs, parent, sameNote]
