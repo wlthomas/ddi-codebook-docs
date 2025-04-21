@@ -1,9 +1,9 @@
 Identification
 ==============
 
-Codebook was originally developed using an XML DTD. It was intended to support internal referencing using the standard XML ID and IDRef9s) element types. As it developed and the newer schema based version eventually named DDI-Lifecycle was established, the approach switched to the use of a three part URN of agency identification, item identification, and version number. 
+Codebook was originally developed using an XML DTD. It was intended to support internal referencing using the standard XML ID and IDRef(s) element types. As it developed and the newer schema based version eventually named DDI-Lifecycle was established, the approach switched to the use of a three part URN of agency identification, item identification, and version number. 
 
-This is the approach that was continued through the development of major DDI products. It is important to recognize that while Codebook supports both approaches, identifiers are not required in DDI-Codebook and all internal referencing is done through the ID IDRef(s) structure. Links to external products are limited in Codebook, and with Codebook v.2.6 the use of ExtLink has been deprecated. External links are made by creating another material for an external object and referencing the othMat using the IDRef(s) available at most elements within DDI-Codebook. 
+This is the approach that was continued through the development of major DDI products. It is important to recognize that while Codebook supports both approaches, identifiers are not required in DDI-Codebook and all internal referencing is done through the ID IDRef(s) structure. Links to external products are limited in Codebook, and with Codebook v.2.6 the use of ExtLink has been deprecated. External links are made by creating a description of the other material for an external object and referencing the description using the IDRef(s) available at most elements within DDI-Codebook. These descriptions may be entered as an otherMat or as specific type in othrStdyMat (relMat, relStdy, relPubl, or othRefs).
 
 Codebook contains the following set of identifiers and related referencing objects.
 
