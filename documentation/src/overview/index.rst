@@ -7,7 +7,7 @@ Overview
 
    tree.rst
    
-This documentation is provided to assist in the usage of the XML specification (http://www.ddialliance.org/Specification/DDI-Codebook/2.6/XMLSchema/
+This documentation is provided to assist in the usage of the XML specification (http://www.ddialliance.org/Specification/DDI-Codebook/2.6/XMLSchema/)
 
 In addition there are three other main sources of documentation
 
