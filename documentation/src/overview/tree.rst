@@ -1,4 +1,4 @@
-- Numering locations are valid for version 2.6 only and reflect the current order and nesting of this version
+- Numbering locations are valid for version 2.6 only and reflect the current order and nesting of this version
 
 - Field Name (min-max) [attributes] 
 
